@@ -11,6 +11,8 @@ declare namespace ext.tabs {
     index: number
     /** Icon URL or local path. */
     icon?: string
+    /** Dark icon URL or local path. */
+    icon_dark?: string
     /** Tab text. */
     text: string
     /** Muted state. */
@@ -27,6 +29,8 @@ declare namespace ext.tabs {
     index?: number
     /** Icon URL or local path. */
     icon?: string
+    /** Dark icon URL or local path. */
+    icon_dark?: string
     /** Tab text. */
     text?: string
     /** Muted state. */
